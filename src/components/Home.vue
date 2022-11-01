@@ -23,24 +23,23 @@
 
 .homeContainer h1 {
   margin: 245px auto 20px;
-  font-family: "Verdana";
   font-size: 45px;
   color: rgb(17, 17, 17)
 }
 
 .homeContainer div {
   width: 65%;
+  line-height: 1.7;
   font-size: 20px;
   margin: 25px auto 35px;
   text-align: center;
-  font-family: "Verdana";
   color: rgb(17, 17, 17)
 }
 
 .button-3 {
   width: 35%;
   height: 55px;
-  margin: 45px auto 500px;
+  margin: 45px auto 325px;
 
   appearance: none;
   background-color: #2ea44f;
@@ -56,7 +55,6 @@
   font-weight: 600;
   line-height: 20px;
   padding: 6px 16px;
-  position: relative;
   text-align: center;
   text-decoration: none;
   user-select: none;

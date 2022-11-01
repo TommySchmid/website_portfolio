@@ -46,7 +46,6 @@ img {
 
 .pictureContainer div {
   margin: 5px;
-  font-family: "Verdana";
 }
 
 
@@ -59,14 +58,13 @@ img {
 
 .navContainer div {
   margin: 0px 30px;
-  font-family: "Verdana";
   font-weight: bold;
   font-size: 15px;
   transition: 0.3s;
 }
 
 .navContainer div:hover {
-  color: rgb(0, 180, 0);
+  color: #2ea44f;
 }
 
 </style>
