@@ -61,7 +61,7 @@
   margin: 0px auto 65px;
   width: 50%;
   line-height: 1.7;
-  text-align: center;
+  text-align: left;
   color: rgb(17, 17, 17)
 }
 

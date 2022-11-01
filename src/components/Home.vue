@@ -32,7 +32,7 @@
   line-height: 1.7;
   font-size: 20px;
   margin: 25px auto 35px;
-  text-align: center;
+  text-align: left;
   color: rgb(17, 17, 17)
 }
 
