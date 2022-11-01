@@ -1,7 +1,8 @@
 <template>
   <div className="homeContainer">
-    <h1>Hey, I'm Thomas Schmid</h1>
-    <div>A highly motivated and task-oriented self-starter seeking employment as a software engineer where I can build on my existing skills and grow into a well-rounded frontend developer.</div>
+    <h1>HEY, I'M THOMAS SCHMID</h1>
+    <div>A highly motivated and task-oriented self-starter seeking employment as a software engineer in order to build on my existing skills and grow into a well-rounded frontend developer.</div>
+    <button class="button-3" role="button">PROJECTS</button>
   </div>
 </template>
   
@@ -18,21 +19,78 @@
   flex-direction: column;
   margin: auto;
   width: 100%;
-  background-color: blue;
 }
 
 .homeContainer h1 {
-  margin: 10px auto;
-  background-color: orange
+  margin: 245px auto 20px;
+  font-family: "Verdana";
+  font-size: 45px;
+  color: rgb(17, 17, 17)
 }
 
 .homeContainer div {
-  width: 50%;
+  width: 65%;
   font-size: 20px;
-  margin: 10px auto;
+  margin: 25px auto 35px;
   text-align: center;
-  background-color: yellow;
+  font-family: "Verdana";
+  color: rgb(17, 17, 17)
 }
 
+.button-3 {
+  width: 35%;
+  height: 55px;
+  margin: 45px auto 500px;
+
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
 
 </style>
