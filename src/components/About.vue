@@ -59,7 +59,7 @@
 
 .aboutContainer h4 {
   margin: 0px auto 65px;
-  width: 75%;
+  width: 50%;
   line-height: 1.7;
   text-align: center;
   color: rgb(17, 17, 17)
@@ -68,7 +68,7 @@
 .aboutSubContainer {
   display: flex;
   flex-direction: row;
-  margin: 2px;
+  margin: 20px auto 245px;
 }
 
 .GTNMContainer {
@@ -109,6 +109,7 @@
 }
 
 .skillsListContainer div {
+  color: white;
   margin: 10px;
   border-radius: 25px;
   background: #2ea44f;
