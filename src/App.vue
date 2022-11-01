@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div className="font">
     <MenuBar />
     <Home />
     <About />
@@ -28,4 +28,7 @@ export default {
 </script>
 
 <style>
+.font {
+  font-family: "Verdana";
+}
 </style>
