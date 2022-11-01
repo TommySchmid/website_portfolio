@@ -9,10 +9,10 @@
       </div>
     </div>
     <div className="navContainer">
-      <div>HOME</div>
-      <div>ABOUT</div>
-      <div>PROJECTS</div>
-      <div>CONTACT</div>
+      <div id="home">HOME</div>
+      <div id="about">ABOUT</div>
+      <div id="projects">PROJECTS</div>
+      <div id="contact">CONTACT</div>
     </div>
   </div>
 </template>
@@ -65,6 +65,7 @@ img {
 
 .navContainer div:hover {
   color: #2ea44f;
+  cursor: pointer;
 }
 
 </style>

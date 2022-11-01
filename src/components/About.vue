@@ -1,5 +1,5 @@
 <template>
-  <div className="aboutContainer">
+  <div className="aboutContainer" id="about">
     <h1>ABOUT ME</h1>
     <h4>Here you will find more information on how I have come up to proficiency, and the technologies I have studied and worked with.</h4>
     <div className="aboutSubContainer">
