@@ -6,13 +6,28 @@
         <a href="https://github.com/cuttle-cards/cuttle" target="_blank">Cuttle.cards</a> - Open source
         <div>
           Core team at cuttle.cards. <a href="https://github.com/cuttle-cards/cuttle/commits?author=TommySchmid" target="_blank">Contributions</a> enhance Cypress test suite, add logical javascript operators to Vue framework dictating style application and game state, fix application breaking bugs, and refactor existing code.
+          <div>
+            <img src="../assets/cuttle.png" style="width:50%;" />
+          </div>
         </div>
         <a href="https://github.com/TommySchmid/vue_music_viewer" target="_blank">Crate Companion v2</a>
-        <div>Crate Companion is the final iteration of a music inspired web application that I created. It combines the concepts of having music at your fingertips, and sharing music with others, into one. This version was created using Vue.</div>
+        <div>
+          Crate Companion is the final iteration of a music inspired web application that I created. It combines the concepts of having music at your fingertips, and sharing music with others, into one. This version was created using Vue.
+          <div>
+            <img src="../assets/v2.png" style="width:50%;" />
+          </div>
+        </div>
         <a href="https://crate-companion.surge.sh/">Crate Companion v1</a>
-        <div>An earlier version of Crate Companion using React to display band information based on user input.</div>
+        <div>
+          An earlier version of Crate Companion using React to display band information based on user input.
+          <div>
+            <img src="../assets/v1.png" style="width:50%;" />
+          </div>
+        </div>
         <a href="https://codepen.io/TommySchmid4954">Miscellaneous Apps</a>
-        <div>A series of miscellaneous applications written on Codepen using React. Applications range from a drum machine to a calculator.</div>
+        <div>
+          A series of miscellaneous applications written on Codepen using React. Applications range from a drum machine to a calculator.
+        </div>
       </div>
     </div>
   </template>
@@ -37,7 +52,7 @@
 
 .projectsContainer h4 {
   width: 50%;
-  text-align: center;
+  text-align: left;
   margin: 0px auto 45px;
   color: rgb(17, 17, 17);
   line-height: 1.7;
