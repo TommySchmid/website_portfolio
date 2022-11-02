@@ -9,17 +9,31 @@
       </div>
     </div>
     <div className="navContainer">
-      <div id="home">HOME</div>
-      <div id="about">ABOUT</div>
-      <div id="projects">PROJECTS</div>
-      <div id="contact">CONTACT</div>
+      <div @click="handleHomeClick">HOME</div>
+      <div @click="handleAboutClick">ABOUT</div>
+      <div @click="handleProjectsClick">PROJECTS</div>
+      <div @click="handleContactClick">CONTACT</div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'MenuBar'
+  name: 'MenuBar',
+  methods: {
+    handleHomeClick: function() {
+      document.getElementById('home').scrollIntoView({block: "start"});
+    },
+    handleAboutClick: function () {
+      document.getElementById('about').scrollIntoView({block: "end"});
+    },
+    handleProjectsClick: function () {
+      document.getElementById('projects').scrollIntoView({block: "start"});
+    },
+    handleContactClick: function () {
+      document.getElementById('contact').scrollIntoView({block: "end"});
+    }
+  }
 }
 </script>
 

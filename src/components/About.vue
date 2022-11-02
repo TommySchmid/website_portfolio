@@ -7,13 +7,13 @@
         <div className="info">
           <h2>Get to know me!</h2>
           <div>
-            I am a self taught Frontend Web Developer looking to take my development skills to the next level.
+            I am a self taught Frontend Software Engineer looking to take my development skills to the next level.
           </div>
           <div>
             After making the decision to pursue a career in software development and investing my time, I now have example work to showcase, open source development experience, and 5+ years of experience serving on engineering teams in varying capacities.
           </div>
           <div> 
-            I am open to job opportunities through which I can continue to grow and learn individually, and contribute to a greater cause.
+            I am open to job opportunities through which I can continue to grow and learn individually and as a teammate, and contribute to a greater cause.
           </div>
         </div>
       </div>
@@ -51,6 +51,7 @@
   flex-direction: column;
   margin: auto;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 .aboutContainer h1 {
