@@ -1,5 +1,5 @@
 <template>
-    <div className="contactContainer">
+    <div className="contactContainer" id="contact">
       <div>
         <div> 
           Thomas Schmid

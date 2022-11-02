@@ -1,14 +1,19 @@
 <template>
-  <div className="homeContainer">
+  <div className="homeContainer" id="home">
     <h1>HEY, I'M THOMAS SCHMID</h1>
     <div>A highly motivated and task-oriented self-starter seeking employment as a software engineer in order to build on my existing skills and grow into a well-rounded frontend developer.</div>
-    <button class="button-3" role="button">PROJECTS</button>
+    <button @click="handleProjectsClick" class="button-3" role="button">PROJECTS</button>
   </div>
 </template>
   
   <script>
   export default {
-    name: 'Home'
+    name: 'Home',
+    methods: {
+      handleProjectsClick: function() {
+        document.getElementById('projects').scrollIntoView();
+      }
+    }
   }
   </script>
   
