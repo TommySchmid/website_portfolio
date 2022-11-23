@@ -31,4 +31,10 @@ export default {
 .font {
   font-family: "Verdana";
 }
+
+@media only screen and (max-width: 600px) {
+  .font {
+    width: 189%;
+  }
+}
 </style>
