@@ -48,6 +48,7 @@ img {
   flex-direction: row;
   position: sticky;
   top:0;
+  width: 100%;
   background-color: white;
 }
 
@@ -61,7 +62,6 @@ img {
 .pictureContainer div {
   margin: 5px;
 }
-
 
 .navContainer {
   display: flex;
