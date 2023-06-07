@@ -1,5 +1,5 @@
 <template>
-  <div className="aboutContainer">
+  <div className="aboutContainer" id="about">
     <h1>ABOUT ME</h1>
     <div className="aboutDescription">Here you will find more information on how I have come up to proficiency, and the technologies I have studied and worked with.</div>
     <div className="aboutSubContainer">
@@ -132,6 +132,10 @@
 
 @media only screen and (max-width: 600px) {
   .aboutContainer h4{
+    width: 75%;
+  }
+
+  .aboutDescription{
     width: 75%;
   }
 }

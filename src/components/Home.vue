@@ -24,12 +24,15 @@
   flex-direction: column;
   margin: auto;
   width: 100%;
+  text-align: center;
 }
 
 .homeContainer h1 {
+  display: flex;
+  flex-direction: column;
   margin: 245px auto 20px;
   font-size: 65px;
-  color: rgb(17, 17, 17)
+  color: rgb(17, 17, 17);
 }
 
 .homeContainer div {
@@ -44,7 +47,7 @@
 }
 
 .button-3 {
-  width: 15%;
+  min-width: 15%;
   height: 55px;
   margin: 45px auto 325px;
 

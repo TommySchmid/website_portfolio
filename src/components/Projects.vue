@@ -1,7 +1,9 @@
 <template>
     <div className="projectsContainer" id="projects">
       <h1>PROJECTS</h1>
-      <div className="projectsDescription">Here you will find links to various projects that I have contributed to and created, and a bit of the inspiration and information behind each of them.</div>
+      <div className="projectsDescription"> 
+        Here you will find links to various projects that I have contributed to and created, and a bit of the inspiration and information behind each of them.
+      </div>
       <div> 
         <div id="projectHeader">Cuttle.cards</div>
         <div className="projectsSubContainer">
@@ -121,8 +123,8 @@ img{
   font-size: 35px;
   color: #2ea44f;
   background-color: rgb(211, 253, 211);
-  border-radius: 25px;
-  width: 20%;
+  border-radius: 15px;
+  width: fit-content;
   text-align: center;
   margin-top: 50px;
   margin-left: 12%;
@@ -172,6 +174,12 @@ img{
 .button-3 {
   text-decoration: none;
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .projectsDescription{
+    width: 75%;
+  }
 }
 
 </style>
