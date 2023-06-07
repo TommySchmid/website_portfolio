@@ -28,21 +28,23 @@
 
 .homeContainer h1 {
   margin: 245px auto 20px;
-  font-size: 45px;
+  font-size: 65px;
   color: rgb(17, 17, 17)
 }
 
 .homeContainer div {
-  width: 65%;
+  width: 75%;
   line-height: 1.7;
-  font-size: 20px;
+  font-size: 35px;
   margin: 25px auto 35px;
-  text-align: left;
-  color: rgb(17, 17, 17)
+  text-align: center;
+  color: rgb(17, 17, 17);
+  background-color: rgb(211, 253, 211);
+  border-radius: 25px;
 }
 
 .button-3 {
-  width: 35%;
+  width: 15%;
   height: 55px;
   margin: 45px auto 325px;
 
@@ -56,7 +58,7 @@
   cursor: pointer;
   display: inline-block;
   font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 20px;
   padding: 6px 16px;
@@ -70,30 +72,14 @@
   transition: 0.3s;
 }
 
-.button-3:focus:not(:focus-visible):not(.focus-visible) {
-  box-shadow: none;
-  outline: none;
-}
-
 .button-3:hover {
   background-color: #2c974b;
 }
 
-.button-3:focus {
-  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
-  outline: none;
-}
-
-.button-3:disabled {
-  background-color: #94d3a2;
-  border-color: rgba(27, 31, 35, .1);
-  color: rgba(255, 255, 255, .8);
-  cursor: default;
-}
-
-.button-3:active {
-  background-color: #298e46;
-  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+@media only screen and (max-width: 600px){
+  .button-3{
+    width: 25%;
+  }
 }
 
 </style>
