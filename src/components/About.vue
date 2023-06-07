@@ -1,7 +1,7 @@
 <template>
-  <div className="aboutContainer" id="about">
+  <div className="aboutContainer">
     <h1>ABOUT ME</h1>
-    <h4>Here you will find more information on how I have come up to proficiency, and the technologies I have studied and worked with.</h4>
+    <div className="aboutDescription">Here you will find more information on how I have come up to proficiency, and the technologies I have studied and worked with.</div>
     <div className="aboutSubContainer">
       <div className="GTNMContainer">
         <div className="info">
@@ -56,14 +56,18 @@
 
 .aboutContainer h1 {
   margin: 0px auto 25px;
+  font-size: 50px;
 }
 
-.aboutContainer h4 {
+.aboutDescription {
   margin: 0px auto 65px;
-  width: 50%;
+  font-size: 25px;
+  width: 55%;
   line-height: 1.7;
-  text-align: left;
-  color: rgb(17, 17, 17)
+  text-align: center;
+  color: rgb(17, 17, 17);
+  background-color: rgb(211, 253, 211);
+  border-radius: 25px;
 }
 
 .aboutSubContainer {
@@ -87,9 +91,14 @@
   margin: auto;
 }
 
+.info h2 {
+  font-size: 35px;
+}
+
 .info div {
   margin: 10px;
   line-height: 1.7;
+  font-size: 20px;
 }
 
 .skillsContainer {
@@ -100,6 +109,7 @@
 .skillsContainer h2 {
   margin: 5px;
   text-align: left;
+  font-size: 35px;
 }
 
 .skillsListContainer {
@@ -115,6 +125,15 @@
   border-radius: 25px;
   background: #2ea44f;
   padding: 20px;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: default;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutContainer h4{
+    width: 75%;
+  }
 }
 
 </style>
