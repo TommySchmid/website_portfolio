@@ -49,7 +49,7 @@
         <div className="projectsSubContainer">
           A series of miscellaneous applications written on Codepen using React. Applications range from a drum machine to a calculator.
           <div id="buttonAlign">
-            <button class="button-3" onclick="window.open('https://codepen.io/TommySchmid4954')">View on Git</button>
+            <button class="button-3" onclick="window.open('https://codepen.io/TommySchmid4954')">View on CodePen</button>
           </div>
         </div>
       </div>
