@@ -34,6 +34,7 @@
 .contactContainer div {
   margin: 15px;
   width: 85%;
+  cursor: default;
 }
 
 .contactInfo {

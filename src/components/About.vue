@@ -52,6 +52,7 @@
   margin: auto;
   width: 100%;
   scroll-behavior: smooth;
+  cursor: default;
 }
 
 .aboutContainer h1 {
@@ -60,7 +61,7 @@
 }
 
 .aboutDescription {
-  margin: 0px auto 65px;
+  margin: 0px auto 15px;
   font-size: 25px;
   width: 55%;
   line-height: 1.7;
@@ -68,12 +69,13 @@
   color: rgb(17, 17, 17);
   background-color: rgb(211, 253, 211);
   border-radius: 25px;
+  padding: 20px;
 }
 
 .aboutSubContainer {
   display: flex;
   flex-direction: row;
-  margin: 20px auto 245px;
+  margin: 20px auto 50px;
 }
 
 .GTNMContainer {
@@ -136,6 +138,26 @@
   }
 
   .aboutDescription{
+    width: 75%;
+  }
+
+  .aboutSubContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 50px;
+    align-items: center;
+  }
+
+  .GTNMContainer {
+    width: 75%;
+    margin-bottom: 25px;
+  }
+  
+  .info div{
+    width: 100%;
+  }
+
+  .skillsContainer{
     width: 75%;
   }
 }

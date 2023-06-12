@@ -25,12 +25,13 @@
   margin: auto;
   width: 100%;
   text-align: center;
+  cursor: default;
 }
 
 .homeContainer h1 {
   display: flex;
   flex-direction: column;
-  margin: 245px auto 20px;
+  margin: 15px auto 20px;
   font-size: 65px;
   color: rgb(17, 17, 17);
 }
@@ -39,17 +40,18 @@
   width: 75%;
   line-height: 1.7;
   font-size: 35px;
-  margin: 25px auto 35px;
+  margin: 15px auto 15px;
   text-align: center;
   color: rgb(17, 17, 17);
   background-color: rgb(211, 253, 211);
   border-radius: 25px;
+  padding: 20px;
 }
 
 .button-3 {
   min-width: 15%;
   height: 55px;
-  margin: 45px auto 325px;
+  margin: 15px auto 100px;
 
   appearance: none;
   background-color: #2ea44f;

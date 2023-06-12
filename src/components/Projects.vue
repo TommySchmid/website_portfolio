@@ -76,7 +76,7 @@
 }
 
 .projectsDescription {
-  width: 50%;
+  width: 55%;
   font-size: 25px;
   text-align: center;
   margin: 0px auto 45px;
@@ -84,6 +84,7 @@
   line-height: 1.7;
   background-color: rgb(211, 253, 211);
   border-radius: 25px;
+  padding: 20px;
 }
 
 .projectsSubContainer {
@@ -96,6 +97,7 @@
   padding: 20px;
   font-size: 20px;
   line-height: 1.7;
+  cursor: default;
 }
 
 .projectsSubContainer div {
@@ -123,12 +125,14 @@ img{
   font-size: 35px;
   color: #2ea44f;
   background-color: rgb(211, 253, 211);
-  border-radius: 15px;
+  border-radius: 25px;
   width: fit-content;
   text-align: center;
   margin-top: 50px;
   margin-left: 12%;
   margin-bottom: 5px;
+  padding: 10px;
+  cursor: default;
 }
 
 /* Button CSS */
