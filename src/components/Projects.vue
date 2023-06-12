@@ -97,7 +97,6 @@
   padding: 20px;
   font-size: 20px;
   line-height: 1.7;
-  cursor: default;
 }
 
 .projectsSubContainer div {
@@ -132,7 +131,6 @@ img{
   margin-left: 12%;
   margin-bottom: 5px;
   padding: 10px;
-  cursor: default;
 }
 
 /* Button CSS */

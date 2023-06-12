@@ -61,7 +61,6 @@ img {
 
 .pictureContainer div {
   margin: 5px;
-  cursor: default;
 }
 
 .navContainer {

@@ -52,7 +52,6 @@
   margin: auto;
   width: 100%;
   scroll-behavior: smooth;
-  cursor: default;
 }
 
 .aboutContainer h1 {
@@ -129,7 +128,6 @@
   padding: 20px;
   font-size: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  cursor: default;
 }
 
 @media only screen and (max-width: 600px) {
