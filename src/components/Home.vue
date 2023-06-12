@@ -25,7 +25,6 @@
   margin: auto;
   width: 100%;
   text-align: center;
-  cursor: default;
 }
 
 .homeContainer h1 {

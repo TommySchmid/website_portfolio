@@ -32,6 +32,7 @@ export default {
 
 .font {
   font-family: "Lato";
+  cursor: default;
 }
 
 /* width */
