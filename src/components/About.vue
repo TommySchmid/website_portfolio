@@ -1,7 +1,7 @@
 <template>
   <div className="aboutContainer" id="about">
-    <h1>ABOUT ME</h1>
-    <div className="aboutDescription">Here you will find more information on how I have come up to proficiency, and the technologies I have studied and worked with.</div>
+    <!-- <h1>ABOUT ME</h1> -->
+    <!-- <div className="aboutDescription">Here you will find more information on how I have come up to proficiency, and the technologies I have studied and worked with.</div> -->
     <div className="aboutSubContainer">
       <div className="GTNMContainer">
         <div className="info">
@@ -51,7 +51,6 @@
   flex-direction: column;
   margin: auto;
   width: 100%;
-  scroll-behavior: smooth;
 }
 
 .aboutContainer h1 {
@@ -100,6 +99,13 @@
   margin: 10px;
   line-height: 1.7;
   font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.info div:hover{
+  background-color: rgb(211, 253, 211);
+  border-radius: 25px;
+  padding: 5px;
 }
 
 .skillsContainer {
@@ -113,11 +119,13 @@
   font-size: 35px;
 }
 
+/* z-index set in MenuBar.vue to accommodate skills hover enlarging */
 .skillsListContainer {
   margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  z-index: 1;
 }
 
 .skillsListContainer div {
@@ -128,6 +136,12 @@
   padding: 20px;
   font-size: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.skillsListContainer div:hover {
+   transform: scale(1.1);
 }
 
 @media only screen and (max-width: 600px) {
