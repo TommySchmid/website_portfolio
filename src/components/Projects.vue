@@ -5,6 +5,13 @@
         Here you will find links to various projects that I have contributed to and created, and a bit of the inspiration and information behind each of them.
       </div>
       <div> 
+        <div id="projectHeader">inStryde</div>
+        <div className="projectsSubContainer">
+          Since beginning an ongoing internship with <a href="https://www.instryde.com/" target="_blank">inStryde</a>, a North Carolina startup and TechStars grad, I have led the development and creation of the in-house application used for processing and filling customer orders. I was relied on for architectural and functional decision making. This project was initially created relying heavily on the material-ui library. My refactor work was a complete rebuild using custom code. Features include grid checkbox functionality for uploading and deleting customer entries, column toggles for viewing preference, enhancing application data update and retrevial from Firebase, and a reactive search-as-you-type search function that updates displayed information in real time. 
+          <div className="imageContainer">
+            <img src="../assets/instryde.png" />
+          </div>
+        </div>
         <div id="projectHeader">Cuttle.cards</div>
         <div className="projectsSubContainer">
           Core team at cuttle.cards. <a href="https://github.com/cuttle-cards/cuttle/commits?author=TommySchmid" target="_blank">Contributions</a> enhance Cypress test suite, add logical javascript operators to Vue framework dictating style application and game state, fix application breaking bugs, and refactor existing code. The open source Cuttle community has given me the opportunity to contribute to a large web application in a collaborative and remote setting. The technologies used include Vue as the frontend framework, Cypress as the testing suite, and Sails.js as the backend server.
@@ -15,41 +22,15 @@
             <img src="../assets/cuttle.png" />
           </div>
         </div>
-        <div id="projectHeader">Crate Companion v2</div>
+        <div id="projectHeader">Crate Companion</div>
         <div className="projectsSubContainer">
-          Crate Companion is the final iteration of a music inspired web application that I created. It combines the concepts of having music at your fingertips, and sharing music with others, into one. Building off of v1, I created v2 as a way to practice working with multi-page applications, combining Crate Companion v1 and the Ultimate Music List. The technologies used include Vue and Vuex as the frontend framework and state managment, Firebase Authentication to manage login state, Axios to handle network requests, and Vue Router to ensure smooth client side routing.
+          Crate Companion is a web application used to quickly identify a band's most popular albums and tracks. While digging through my local Philadelphia record stores, I use this site to help determine which records i'd like to add to my collection. React is used as the frontend framework with Axios making network requests. The rest is JSX and CSS. Visually optimized for desktop and mobile viewing.
           <div id="buttonAlign">
-            <button class="button-3" onclick="window.open('https://github.com/TommySchmid/vue_music_viewer')">View on Git</button>
+            <button class="button-3" onclick="window.open('https://github.com/TommySchmid/crate_companion')">View on Git</button>
+            <button class="button-3" onclick="window.open('https://cratecompanion.surge.sh/')">View Site</button>
           </div>
           <div className="imageContainer">
-            <img src="../assets/v2.png" />
-          </div>
-        </div>
-        <div id="projectHeader">Crate Companion v1</div>
-        <div className="projectsSubContainer">
-          An earlier version of Crate Companion using React to display band information based on user input. I created this as a way to quickly pull up a band's top albums and songs, and a way to practice creating single page applications. The technologies used include React as the frontend framework and Axios to handle network requests.
-          <div id="buttonAlign">
-            <button class="button-3" onclick="window.open('https://github.com/TommySchmid/music_viewer')">View on Git</button>
-          </div>
-          <div className="imageContainer">
-            <img src="../assets/v1.png" />
-          </div>
-        </div>
-        <div id="projectHeader">Ultimate Music List</div>
-        <div className="projectsSubContainer">
-          The Ultimate Music List was one of my first project ideas. This application was created to serve as an easy way to share music with family and friends. React is used as the frontend framework, Axios is used to handle network requests, storing and retrieving dispalyed information from a Firebase database.
-          <div id="buttonAlign">
-            <button class="button-3" onclick="window.open('https://github.com/TommySchmid/Ultimate-Music-List')">View on Git</button>
-          </div>
-          <div className="imageContainer">
-            <img src="../assets/uml.png" />
-          </div>
-        </div>
-        <div id="projectHeader">Miscellaneous Apps</div>
-        <div className="projectsSubContainer">
-          A series of miscellaneous applications written on Codepen using React. Applications range from a drum machine to a calculator.
-          <div id="buttonAlign">
-            <button class="button-3" onclick="window.open('https://codepen.io/TommySchmid4954')">View on CodePen</button>
+            <img src="../assets/cc.png" />
           </div>
         </div>
       </div>
