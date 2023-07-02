@@ -22,16 +22,16 @@ export default {
   name: 'MenuBar',
   methods: {
     handleHomeClick: function() {
-      document.getElementById('home').scrollIntoView({block: "start"});
+      window.scrollTo({top: 0, behavior: 'smooth'});
     },
     handleAboutClick: function () {
-      document.getElementById('about').scrollIntoView({block: "end"});
+      window.scrollTo({top: 550, behavior: 'smooth'})
     },
     handleProjectsClick: function () {
-      document.getElementById('projects').scrollIntoView({block: "start"});
+      window.scrollTo({top: 950, behavior: 'smooth'})
     },
     handleContactClick: function () {
-      document.getElementById('contact').scrollIntoView({block: "end"});
+      window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})
     }
   }
 }
@@ -43,6 +43,8 @@ img {
   border-radius: 50%;
 }
 
+/* z-index set in About.vue to accommodate skills hover enlarging */
+
 .menuContainer {
   display: flex;
   flex-direction: row;
@@ -50,6 +52,7 @@ img {
   top:0;
   width: 100%;
   background-color: white;
+  z-index: 3;
 }
 
 .pictureContainer {

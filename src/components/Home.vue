@@ -11,7 +11,7 @@
     name: 'Home',
     methods: {
       handleProjectsClick: function() {
-        document.getElementById('projects').scrollIntoView();
+        window.scrollTo({top: 950, behavior: 'smooth'})
       }
     }
   }
