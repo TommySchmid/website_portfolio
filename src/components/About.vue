@@ -1,7 +1,5 @@
 <template>
   <div className="aboutContainer" id="about">
-    <!-- <h1>ABOUT ME</h1> -->
-    <!-- <div className="aboutDescription">Here you will find more information on how I have come up to proficiency, and the technologies I have studied and worked with.</div> -->
     <div className="aboutSubContainer">
       <div className="GTNMContainer">
         <div className="info">
@@ -10,10 +8,10 @@
             I am a self taught Frontend Software Engineer looking to take my development skills to the next level.
           </div>
           <div>
-            After making the decision to pursue a career in software development and investing my time, I now have example work to showcase, open source development experience, and 5+ years of experience serving on engineering teams in varying capacities.
+            After making the decision to pursue a career in software development and investing my time, I have example work to showcase, open source development experience, and 5+ years of experience serving on engineering teams in varying capacities.
           </div>
           <div> 
-            I am open to job opportunities through which I can continue to grow and learn individually and as a teammate, and contribute to a greater cause.
+            I am open to job opportunities through which I can continue to grow and learn individually and as a teammate.
           </div>
         </div>
       </div>
@@ -105,7 +103,8 @@
 .info div:hover{
   background-color: rgb(211, 253, 211);
   border-radius: 25px;
-  padding: 5px;
+  padding: 10px;
+  margin: -0.5px;
 }
 
 .skillsContainer {

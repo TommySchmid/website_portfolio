@@ -1,10 +1,10 @@
 <template>
   <div className="menuContainer">
     <div className="pictureContainer">
-      <div>
+      <div className="picture">
         <img src="../assets/tschmid.jpg" style="width:75px;height75px;" />
       </div>
-      <div>
+      <div className="name">
         Thomas Schmid
       </div>
     </div>
@@ -25,10 +25,10 @@ export default {
       window.scrollTo({top: 0, behavior: 'smooth'});
     },
     handleAboutClick: function () {
-      window.scrollTo({top: 550, behavior: 'smooth'})
+      window.scrollTo({top: 500, behavior: 'smooth'})
     },
     handleProjectsClick: function () {
-      window.scrollTo({top: 950, behavior: 'smooth'})
+      window.scrollTo({top: 875, behavior: 'smooth'})
     },
     handleContactClick: function () {
       window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})
@@ -64,6 +64,13 @@ img {
 
 .pictureContainer div {
   margin: 5px;
+  transition: all 0.5s ease;
+}
+
+.picture:hover {
+  transform: scale(4);
+  margin-top: 110px;
+  margin-left: 105px;
 }
 
 .navContainer {
