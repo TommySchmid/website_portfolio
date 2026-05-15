@@ -1,6 +1,7 @@
 <template>
     <div className="projectsContainer" id="projects">
       <h1>PROJECTS</h1>
+      <div className="earlyCareer">(Where would I be without the things learned from these early career personal projects?)</div>
       <div className="projectsDescription"> 
         Here you will find links to various projects that I have contributed to and created, and a bit of the inspiration and information behind each of them.
       </div>
@@ -45,6 +46,15 @@
   
   
 <style scoped>
+#projects {
+  scroll-margin-top: 90px; /* match your menu bar height */
+}
+
+.earlyCareer{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .projectsContainer {
   display: flex;
   flex-direction: column;

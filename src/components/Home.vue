@@ -1,8 +1,9 @@
 <template>
   <div className="homeContainer" id="home">
     <h1>HEY, I'M THOMAS SCHMID</h1>
-    <div>A highly motivated and task-oriented self-starter seeking employment as a software engineer in order to build on an existing skills and grow into a well-rounded frontend developer.</div>
-    <button @click="handleProjectsClick" class="button-3" role="button">PROJECTS</button>
+    <div>I’m a software engineer who enjoys building systems that make products more reliable and teams more effective.
+    <br><br>
+      From SDK development to automation frameworks, tooling, and distributed systems design, I’ve spent my career creating solutions that scale while improving the developer experience behind the scenes.</div>
   </div>
 </template>
   

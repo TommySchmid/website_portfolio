@@ -2,17 +2,18 @@
   <div className="menuContainer">
     <div className="pictureContainer">
       <div className="picture">
-        <img src="../assets/tschmid.jpg" style="width:75px;height75px;" />
+        <img src="../assets/tschmid.jpg" style="width:75px;height:75px;" />
       </div>
       <div className="name">
         Thomas Schmid
       </div>
     </div>
     <div className="navContainer">
-      <div @click="handleHomeClick">HOME</div>
-      <div @click="handleAboutClick">ABOUT</div>
-      <div @click="handleProjectsClick">PROJECTS</div>
-      <div @click="handleContactClick">CONTACT</div>
+      <div @click="scrollToTop">HOME</div>
+      <div @click="scrollToSection('about')">ABOUT</div>
+      <div @click="scrollToSection('workExperience')">WORK EXPERIENCE</div>
+      <div @click="scrollToSection('projects')">PROJECTS</div>
+      <div @click="scrollToBottom">CONTACT</div>
     </div>
   </div>
 </template>
@@ -21,17 +22,22 @@
 export default {
   name: 'MenuBar',
   methods: {
-    handleHomeClick: function() {
-      window.scrollTo({top: 0, behavior: 'smooth'});
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
     },
-    handleAboutClick: function () {
-      window.scrollTo({top: 500, behavior: 'smooth'})
+
+    scrollToBottom() {
+      window.scrollTo({
+        top: document.documentElement.scrollHeight,
+        behavior: 'smooth'
+      })
     },
-    handleProjectsClick: function () {
-      window.scrollTo({top: 875, behavior: 'smooth'})
-    },
-    handleContactClick: function () {
-      window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})
+
+    scrollToSection(id) {
+      document.getElementById(id)?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
     }
   }
 }
