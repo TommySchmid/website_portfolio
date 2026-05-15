@@ -17,27 +17,18 @@
 
           <!-- 1 -->
           <details class="treeNode" open>
-            <summary>Kotlin Testing Platform Ownership & Service Validation</summary>
+            <summary>End-to-End Service & Integration Testing Ownership</summary>
             <ul>
-              <li>Lead development of scalable testing and validation platforms for distributed Kotlin-based services</li>
-              <li>Owned and evolved a Kotlin-based testing platform validating client-facing APIs and service layers</li>
-              <li>Extended a Java-based framework executing compiled Kotlin service artifacts for cross-service contract testing</li>
+              <li>Lead development of scalable testing platforms validating client-facing APIs and service layers for distributed Kotlin-based services</li>
+              <li>Designed service-level integration tests interacting with real backend systems and live data</li>
+              <li>Built E2E test infrastructure validating production-like deployments and system behavior under realistic conditions</li>
+              <li>Validated end-to-end data flows across distributed services and client-facing APIs</li>
+              <li>Developed Backend-for-Frontend (BFF) service layer integration</li>
               <li>Increased automated P0 test scenarios by 1150% (12 → 150), significantly improving release confidence</li>
             </ul>
           </details>
 
           <!-- 2 -->
-          <details class="treeNode" open>
-            <summary>End-to-End Service & Integration Testing</summary>
-            <ul>
-              <li>Designed service-level integration tests interacting with real backend systems and live data</li>
-              <li>Built E2E test infrastructure validating production-like deployments and system behavior under realistic conditions</li>
-              <li>Validated end-to-end data flows across distributed services and client-facing APIs</li>
-              <li>Developed Backend-for-Frontend (BFF) service layer integration</li>
-            </ul>
-          </details>
-
-          <!-- 3 -->
           <details class="treeNode" open>
             <summary>Cloud Test Infrastructure & CI/CD Automation</summary>
             <ul>
@@ -47,7 +38,7 @@
             </ul>
           </details>
 
-          <!-- 4 -->
+          <!-- 3 -->
           <details class="treeNode" open>
             <summary>Framework Engineering & Performance Optimization</summary>
             <ul>
@@ -58,7 +49,7 @@
             </ul>
           </details>
 
-          <!-- 5 -->
+          <!-- 4 -->
           <details class="treeNode" open>
             <summary>Observability, Developer Experience & AI Tooling</summary>
             <ul>
