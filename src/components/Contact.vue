@@ -10,7 +10,7 @@
       </div>
       <div className="contactInfo">
         <div><a href="https://github.com/TommySchmid" target="_blank">Github</a></div>
-        <div><a href="https://www.linkedin.com/in/thomas-schmid-a89729b2/" target="_blank">LinkedIn</a></div>
+        <div><a href="https://www.linkedin.com/in/thomas-schmid-phl/" target="_blank">LinkedIn</a></div>
       </div>
     </div>
   </template>

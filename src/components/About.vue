@@ -5,45 +5,34 @@
         <div className="info">
           <h2>Get to know me!</h2>
           <div>
-            I am a self taught Frontend Software Engineer looking to take my development skills to the next level.
+            I'm a software engineer with experience building resilient systems, internal tooling, automation frameworks, and scalable developer workflows.
           </div>
           <div>
-            After making the decision to pursue a career in software development and investing my time, I have example work to showcase, open source development experience, and 5+ years of experience serving on engineering teams in varying capacities.
+            Starting as a customer service representative with an interest in frontend development, I challenged myself to transition into engineering — first as a Manual QA Engineer at URBN, and later as a Senior SDET at Fanatics Betting and Gaming.
           </div>
-          <div> 
-            I am open to job opportunities through which I can continue to grow and learn individually and as a teammate.
+          <div>
+            In my most recent role, I designed resilient testing systems, improved developer workflows, built internal tooling, and helped engineering teams ship software with greater confidence and reliability.
           </div>
-        </div>
-      </div>
-      <div className="skillsContainer">
-        <h2>Skills</h2>
-        <div className="skillsListContainer">
-          <div>Vue/Vuex</div>
-          <div>React/Redux</div>
-          <div>JavaScript</div>
-          <div>HTML</div>
-          <div>CSS</div>
-          <div>Cypress</div>
-          <div>Git</div>
-          <div>Jira/Confluence</div>
-          <div>Axios</div>
-          <div>Firebase</div>
-          <div>Surge</div>
-          <div>Charles/Proxyman</div>
-          <div>Agile Scrum</div>
+          <div>
+            I’m currently looking for opportunities where I can contribute across the full software development lifecycle while continuing to grow as a full-stack engineer.
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
-  
+
   <script>
   export default {
     name: 'About',
   }
   </script>
-  
+
 <style scoped>
+#about {
+  scroll-margin-top: 90px; /* match your menu bar height */
+}
+
 .aboutContainer {
   display: flex;
   flex-direction: column;
@@ -76,7 +65,7 @@
 
 .GTNMContainer {
   margin: 0px 3%;
-  width: 50%;
+  width: 100%;
 }
 
 .GTNMContainer h2 {
@@ -85,8 +74,7 @@
 }
 
 .info {
-  text-align: left;
-  margin: auto;
+  justify-items: center;
 }
 
 .info h2 {
@@ -94,10 +82,11 @@
 }
 
 .info div {
-  margin: 10px;
+  margin: 20px;
   line-height: 1.7;
   font-size: 20px;
   transition: all 0.5s ease;
+  width: 90%;
 }
 
 .info div:hover{
@@ -107,69 +96,13 @@
   margin: -0.5px;
 }
 
-.skillsContainer {
-  margin: 0px 3%;
-  width: 50%;
-}
-
-.skillsContainer h2 {
-  margin: 5px;
-  text-align: left;
-  font-size: 35px;
-}
-
-/* z-index set in MenuBar.vue to accommodate skills hover enlarging */
-.skillsListContainer {
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  z-index: 1;
-}
-
-.skillsListContainer div {
-  color: white;
-  margin: 10px;
-  border-radius: 25px;
-  background: #2ea44f;
-  padding: 20px;
-  font-size: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: all 0.5s ease;
-  z-index: 2;
-}
-
-.skillsListContainer div:hover {
-   transform: scale(1.1);
-}
-
 @media only screen and (max-width: 600px) {
   .aboutContainer h4{
     width: 75%;
   }
 
-  .aboutDescription{
-    width: 75%;
-  }
-
-  .aboutSubContainer{
-    display: flex;
-    flex-direction: column;
-    margin: 50px auto 50px;
-    align-items: center;
-  }
-
-  .GTNMContainer {
-    width: 75%;
-    margin-bottom: 25px;
-  }
-  
   .info div{
     width: 100%;
-  }
-
-  .skillsContainer{
-    width: 75%;
   }
 }
 

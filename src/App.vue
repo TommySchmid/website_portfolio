@@ -3,6 +3,8 @@
     <MenuBar />
     <Home />
     <About />
+    <Skills />
+    <WorkExperience />
     <Projects />
     <Contact />
   </div>
@@ -12,6 +14,8 @@
 import MenuBar from './components/MenuBar.vue'
 import Home from './components/Home.vue'
 import About from './components/About.vue'
+import Skills from "@/components/Skills.vue";
+import WorkExperience from "@/components/WorkExperience.vue";
 import Projects from './components/Projects.vue'
 import Contact from './components/Contact.vue'
 
@@ -21,6 +25,8 @@ export default {
     MenuBar,
     Home,
     About,
+    Skills,
+    WorkExperience,
     Projects,
     Contact
   }
@@ -47,12 +53,12 @@ export default {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(211, 253, 211);
+  background: #2ea44f;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #2ea44f;
+  background: #207237;
 }
 
 @media only screen and (max-width: 600px) {
