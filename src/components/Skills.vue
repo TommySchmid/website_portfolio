@@ -8,6 +8,8 @@
           <div>Java</div>
           <div>Kotlin</div>
           <div>JavaScript</div>
+          <div>Python</div>
+          <div>SQL</div>
           <div>PHP</div>
           <div>HTML</div>
           <div>CSS</div>
