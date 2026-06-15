@@ -8,7 +8,7 @@
             I'm a software engineer with experience building resilient systems, internal tooling, automation frameworks, and scalable developer workflows.
           </div>
           <div>
-            Starting as a customer service representative with an interest in frontend development, I challenged myself to transition into engineering — first as a Manual QA Engineer at URBN, and later as a Senior SDET at Fanatics Betting and Gaming.
+            Starting as a customer service representative with an interest in frontend development, I challenged myself to transition into engineering — first as a Manual QA Engineer at URBN, and later as a Senior Software Engineer at Fanatics Betting and Gaming.
           </div>
           <div>
             In my most recent role, I designed resilient testing systems, improved developer workflows, built internal tooling, and helped engineering teams ship software with greater confidence and reliability.

@@ -5,7 +5,7 @@
           Thomas Schmid
         </div>
         <div> 
-          A highly motivated and task-oriented self-starter seeking employment as a software engineer in order to build on my existing skills and grow into a well-rounded frontend developer.
+          A highly motivated and task-oriented self-starter seeking continued upward career trajectory through backend, fullstack, and devops positions.
         </div>
       </div>
       <div className="contactInfo">

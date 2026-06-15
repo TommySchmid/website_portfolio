@@ -11,53 +11,40 @@
       <div class="jobHeader">Fanatics Betting and Gaming</div>
 
       <div class="workSubContainer">
-        <strong>Senior Software Engineer (SDET)</strong> · January 2024 – May 2026
+        <strong>Senior Software Engineer</strong> · January 2024 - May 2026
 
         <div class="tree">
 
           <!-- 1 -->
           <details class="treeNode" open>
-            <summary>End-to-End Service & Integration Testing Ownership</summary>
+            <summary>Cloud Infrastructure, DevOps & Observability</summary>
             <ul>
-              <li>Lead development of scalable testing platforms validating client-facing APIs and service layers for distributed Kotlin-based services</li>
-              <li>Designed service-level integration tests interacting with real backend systems and live data</li>
-              <li>Built E2E test infrastructure validating production-like deployments and system behavior under realistic conditions</li>
-              <li>Validated end-to-end data flows across distributed services and client-facing APIs</li>
-              <li>Developed Backend-for-Frontend (BFF) service layer integration</li>
-              <li>Increased automated P0 test scenarios by 1150% (12 → 150), significantly improving release confidence</li>
+              <li>Deployed containerized services using Docker, AWS ECR & S3, Kubernetes, and Terraform, enabling scalable cloud-based execution of service validation workloads.</li>
+              <li>Established infrastructure to enable framework integration with CI/CD pipelines to enforce automated validation of service behavior prior to release</li>
+              <li>Implemented custom integrations with ReportPortal and later Datadog, streaming real-time test logs to centralized, accessible observability platforms</li>
+              <li>Created a React dashboard for test framework results backed by an AWS RDS SQL database</li>
             </ul>
           </details>
 
           <!-- 2 -->
           <details class="treeNode" open>
-            <summary>Cloud Test Infrastructure & CI/CD Automation</summary>
+            <summary>Backend Engineering & Platform Development</summary>
             <ul>
-              <li>Deployed cloud-based testing infrastructure using Docker, AWS ECR, Kubernetes, Terraform, and Testkube</li>
-              <li>Implemented CI/CD pipeline integrations enforcing automated validation of service behavior prior to release</li>
-              <li>Enabled scalable execution of validation workloads through containerized service deployments</li>
+              <li>Built and maintained Python service to integrate with internal backend platform, simplifying data generation and manipulation</li>
+              <li>Converted Python-based backend service into a reusable Kotlin library supporting API validation, request orchestration, and response verification across multiple services</li>
+              <li>Developed BFF service layer integrations</li>
+              <li>Created service health monitoring for client-facing systems</li>
+              <li>Owned and evolved custom Java testing platform used to validate Kotlin functionality and client-facing service layers and APIs, ensuring end-to-end reliability of high-traffic services</li>
             </ul>
           </details>
 
           <!-- 3 -->
           <details class="treeNode" open>
-            <summary>Framework Engineering & Performance Optimization</summary>
+            <summary>Test Automation & Engineering Excellence</summary>
             <ul>
-              <li>Built reusable Kotlin libraries for API validation, orchestration, and response verification</li>
+              <li>Increased automated P0 test scenarios by 1,150% (12 to 150), significantly improving confidence in service-layer changes and deployments</li>
+              <li>Created a Claude Skill to transcode existing automated tests into Kotlin while preserving 1:1 functionality</li>
               <li>Implemented mocking and simulation layers to emulate upstream dependencies and improve CI reliability</li>
-              <li>Refactored synchronous test runner into parallel execution engine</li>
-              <li>Reduced regression suite runtime by 87% (1h30 → 12 min)</li>
-            </ul>
-          </details>
-
-          <!-- 4 -->
-          <details class="treeNode" open>
-            <summary>Observability, Developer Experience & AI Tooling</summary>
-            <ul>
-              <li>Implemented real-time test observability using ReportPortal and Datadog</li>
-              <li>Created service health monitoring for client-facing systems</li>
-              <li>Authored internal documentation covering framework architecture, CI integration, and onboarding</li>
-              <li>Maintained JSDoc and TypeScript bindings for multi-environment test authoring</li>
-              <li>Built Claude-based tooling to convert existing automated tests into Kotlin equivalents (1:1 parity migration)</li>
             </ul>
           </details>
 
@@ -70,7 +57,7 @@
       <div class="jobHeader">URBN</div>
 
       <div class="workSubContainer">
-        <strong>Mobile QA Engineer</strong> · April 2021 – January 2024
+        <strong>Mobile QA Engineer</strong> · April 2021 - January 2024
 
         <ul>
           <li>Executed manual testing for mobile retail applications across feature releases and bug fixes</li>
@@ -89,7 +76,7 @@
       <div class="jobHeader">AWeber</div>
 
       <div class="workSubContainer">
-        <strong>Customer Solutions Specialist (Tier IV)</strong> · June 2017 – April 2021
+        <strong>Customer Solutions Specialist (Tier IV)</strong> · June 2017 - April 2021
 
         <ul>
           <li>Served as liaison between end users and engineering teams, helping influence product decisions from a customer perspective</li>

@@ -8,7 +8,9 @@
       <div> 
         <div id="projectHeader">inStryde</div>
         <div className="projectsSubContainer">
-          Since beginning an ongoing internship with <a href="https://www.instryde.com/" target="_blank">inStryde</a>, a North Carolina startup and TechStars grad, I have led the development and creation of the in-house application used for processing and filling customer orders. I was relied on for architectural and functional decision making. This project was initially created relying heavily on the material-ui library. My refactor work was a complete rebuild using custom code. Features include grid checkbox functionality for uploading and deleting customer entries, column toggles for viewing preference, enhancing application data update and retrevial from Firebase, and a reactive search-as-you-type search function that updates displayed information in real time. 
+          Led development and creation of an in-house application for North Carolina startup and TechStars grad, used for processing and filling customer orders. I was relied on for architectural and functional decision making. This project was initially created relying heavily on the material-ui library. My refactor work was a complete rebuild using custom code. Features include grid checkbox functionality for uploading and deleting customer entries, column toggles for viewing preference, enhancing application data update and retrevial from Firebase, and a reactive search-as-you-type search function that updates displayed information in real time.<br><br>
+          
+          References available upon request.
           <div className="imageContainer">
             <img src="../assets/instryde.png" />
           </div>
